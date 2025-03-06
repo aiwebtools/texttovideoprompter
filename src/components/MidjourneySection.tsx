@@ -65,37 +65,37 @@ const MidjourneySection: React.FC = () => {
           <div className="lg:w-1/2">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-cyberpunk-neon-green/20 to-cyberpunk-neon-cyan/20 rounded-xl blur-xl"></div>
-              <div className="glass-card p-5 relative overflow-hidden border border-cyberpunk-neon-green/30">
+              <div className="glass-card p-4 relative overflow-hidden border border-cyberpunk-neon-green/30">
                 <div className="absolute -right-10 -top-10 w-40 h-40 bg-cyberpunk-neon-green/10 rounded-full blur-3xl"></div>
                 
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-full bg-cyberpunk-neon-green/20 flex items-center justify-center">
-                      <Image size={16} className="text-cyberpunk-neon-green" />
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-7 h-7 rounded-full bg-cyberpunk-neon-green/20 flex items-center justify-center">
+                      <Image size={14} className="text-cyberpunk-neon-green" />
                     </div>
                     <div>
-                      <h3 className="text-white text-sm font-medium">Midjourney Prompt Assistant</h3>
-                      <p className="text-white/60 text-xs">Text-to-image expert</p>
+                      <h3 className="text-white text-xs font-medium">Midjourney Prompt Assistant</h3>
+                      <p className="text-white/60 text-[10px]">Text-to-image expert</p>
                     </div>
                   </div>
                   
-                  <div className="p-3 bg-white/5 rounded-lg border border-white/10">
-                    <p className="text-white/80 text-xs italic">
+                  <div className="p-2 bg-white/5 rounded-lg border border-white/10">
+                    <p className="text-white/80 text-[11px] italic">
                       "Ethereal forest guardian, dramatic volumetric lighting, intricate details, hyper-realistic textures, 8k resolution, cinematic composition with bokeh background, digital art masterpiece."
                     </p>
                   </div>
                   
                   <div className="grid grid-cols-2 gap-2">
-                    <div className="aspect-square rounded-lg bg-cyberpunk-background border border-white/10 flex items-center justify-center p-2">
+                    <div className="rounded-lg bg-cyberpunk-background border border-white/10 flex items-center justify-center p-2 h-12">
                       <div className="text-center">
-                        <p className="text-white/40 text-xs">Midjourney v6</p>
-                        <p className="text-white/80 text-xs">Style optimization</p>
+                        <p className="text-white/40 text-[10px]">Midjourney v6</p>
+                        <p className="text-white/80 text-[10px]">Style optimization</p>
                       </div>
                     </div>
-                    <div className="aspect-square rounded-lg bg-cyberpunk-background border border-white/10 flex items-center justify-center p-2">
+                    <div className="rounded-lg bg-cyberpunk-background border border-white/10 flex items-center justify-center p-2 h-12">
                       <div className="text-center">
-                        <p className="text-white/40 text-xs">Parameter control</p>
-                        <p className="text-white/80 text-xs">--ar 16:9 --q 2</p>
+                        <p className="text-white/40 text-[10px]">Parameter control</p>
+                        <p className="text-white/80 text-[10px]">--ar 16:9 --q 2</p>
                       </div>
                     </div>
                   </div>
