@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Code, Video, Wand2 } from "lucide-react";
+import { Code, Video, Wand2, Image } from "lucide-react";
 
 const FeaturedTools: React.FC = () => {
   const tools = [
@@ -26,13 +26,23 @@ const FeaturedTools: React.FC = () => {
     },
     {
       id: 3,
+      title: "Midjourney Prompt Assistant",
+      description:
+        "Craft detailed image prompts for Midjourney. Design stunning visuals with perfect composition, lighting, style, and artistic direction.",
+      icon: <Image className="h-8 w-8 text-cyberpunk-neon-green" />,
+      url: "https://chat.openai.com/g/g-2le87gT1s-middlejourney-prompt-enhancer",
+      color: "from-cyberpunk-neon-green/20 to-cyberpunk-neon-blue/10",
+      delay: "0.5s",
+    },
+    {
+      id: 4,
       title: "Perfect Prompting Engine",
       description:
         "Enhance your prompting skills with expert guidance. Generate perfectly structured prompts that yield optimal results across AI platforms.",
-      icon: <Wand2 className="h-8 w-8 text-cyberpunk-neon-green" />,
+      icon: <Wand2 className="h-8 w-8 text-cyberpunk-neon-cyan" />,
       url: "https://perfectpromptengine.lovable.app/",
-      color: "from-cyberpunk-neon-green/20 to-cyberpunk-neon-blue/10",
-      delay: "0.5s",
+      color: "from-cyberpunk-neon-cyan/20 to-cyberpunk-neon-blue/10",
+      delay: "0.7s",
     },
   ];
 
@@ -61,7 +71,7 @@ const FeaturedTools: React.FC = () => {
         </div>
 
         {/* Tools grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {tools.map((tool) => (
             <a
               key={tool.id}

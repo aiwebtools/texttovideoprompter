@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import FeaturedTools from "@/components/FeaturedTools";
+import MidjourneySection from "@/components/MidjourneySection";
 import FAQ from "@/components/FAQ";
 import Disclaimer from "@/components/Disclaimer";
 import AnimatedBackground from "@/components/AnimatedBackground";
@@ -36,6 +37,7 @@ const Index: React.FC = () => {
       <main>
         <Hero />
         <FeaturedTools />
+        <MidjourneySection />
         <FAQ />
         <Disclaimer />
       </main>

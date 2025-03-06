@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Image } from "lucide-react";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -68,6 +68,15 @@ const Navbar: React.FC = () => {
             Perfect Prompting Engine
           </a>
           <a
+            href="https://chat.openai.com/g/g-2le87gT1s-middlejourney-prompt-enhancer"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/80 hover:text-cyberpunk-neon-green transition-colors flex items-center gap-1"
+          >
+            <Image size={16} />
+            Midjourney Assistant
+          </a>
+          <a
             href="https://chatgpt.com/g/g-6767015882288191810ef9bd3270862f-video-prompt-assistant"
             target="_blank"
             rel="noopener noreferrer"
@@ -127,6 +136,16 @@ const Navbar: React.FC = () => {
               onClick={toggleMenu}
             >
               Perfect Prompting Engine
+            </a>
+            <a
+              href="https://chat.openai.com/g/g-2le87gT1s-middlejourney-prompt-enhancer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/80 hover:text-cyberpunk-neon-green py-2 transition-colors flex items-center gap-2"
+              onClick={toggleMenu}
+            >
+              <Image size={16} />
+              Midjourney Assistant
             </a>
             <a
               href="https://chatgpt.com/g/g-6767015882288191810ef9bd3270862f-video-prompt-assistant"

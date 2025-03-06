@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone, Image } from "lucide-react";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -67,6 +67,17 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
+                  href="https://chat.openai.com/g/g-2le87gT1s-middlejourney-prompt-enhancer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/60 hover:text-cyberpunk-neon-green transition-colors text-sm flex items-center gap-1"
+                >
+                  <Image size={12} />
+                  Midjourney Prompt Assistant
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://perfectpromptengine.lovable.app/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -110,6 +121,16 @@ const Footer: React.FC = () => {
                   className="text-white/60 hover:text-cyberpunk-neon-cyan transition-colors text-sm"
                 >
                   Luma Dream Machine
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.midjourney.com/showcase"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/60 hover:text-cyberpunk-neon-green transition-colors text-sm"
+                >
+                  Midjourney Showcase
                 </a>
               </li>
               <li>
