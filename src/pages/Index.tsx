@@ -8,6 +8,7 @@ import MidjourneySection from "@/components/MidjourneySection";
 import FAQ from "@/components/FAQ";
 import Disclaimer from "@/components/Disclaimer";
 import AnimatedBackground from "@/components/AnimatedBackground";
+import DisclaimerPopup from "@/components/DisclaimerPopup";
 
 const Index: React.FC = () => {
   useEffect(() => {
@@ -29,6 +30,9 @@ const Index: React.FC = () => {
     <div className="min-h-screen flex flex-col">
       {/* Animated background that spans the entire site */}
       <AnimatedBackground />
+      
+      {/* Disclaimer popup that shows on first visit */}
+      <DisclaimerPopup />
       
       {/* Navigation */}
       <Navbar />
