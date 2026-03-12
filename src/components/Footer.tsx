@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.aiwebtools.ai"
+                href="https://aiwebtools.lovable.app/?via=aiwebtools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative inline-flex items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://www.aiwebtools.ai"
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/60 hover:text-cyberpunk-neon-cyan transition-colors text-sm"
@@ -190,7 +190,7 @@ const Footer: React.FC = () => {
               Privacy Policy
             </a>
             <a
-              href="https://aiwebtools.ai/terms-of-services"
+              href="https://aiwebtools.lovable.app/terms-of-services?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-cyberpunk-neon-cyan transition-colors"
@@ -200,7 +200,7 @@ const Footer: React.FC = () => {
           </div>
 
           <a
-            href="https://www.aiwebtools.ai"
+            href="https://aiwebtools.lovable.app/?via=aiwebtools"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white/50 hover:text-cyberpunk-neon-cyan transition-colors"
@@ -212,7 +212,7 @@ const Footer: React.FC = () => {
         {/* More AI Tools button */}
         <div className="absolute right-8 -top-12 transform translate-y-1/2">
           <a
-            href="https://www.aiwebtools.ai"
+            href="https://aiwebtools.lovable.app/?via=aiwebtools"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-gradient-to-r from-cyberpunk-neon-magenta to-cyberpunk-neon-purple text-white font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20"
