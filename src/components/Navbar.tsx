@@ -182,7 +182,6 @@ const Navbar: React.FC = () => {
             >
               More AI Tools
             </a>
-          </div>
         </div>
       </div>
     </header>
