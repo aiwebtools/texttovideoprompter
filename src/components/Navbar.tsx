@@ -116,9 +116,12 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <div className="md:hidden bg-cyberpunk-background border-t border-cyberpunk-border">
-          <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
+      <div
+        className={`md:hidden bg-cyberpunk-background border-t border-cyberpunk-border overflow-hidden transition-all duration-300 ease-in-out ${
+          isMenuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0 border-t-0"
+        }`}
+      >
+        <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
             <a
               href="https://chatgpt.com/g/g-By5fjcWKs-luma-dream-machine-prompt-assistant"
               target="_blank"
