@@ -171,7 +171,7 @@ const Navbar: React.FC = () => {
               Disclaimer
             </a>
             <a
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white bg-gradient-to-r from-cyberpunk-neon-magenta to-cyberpunk-neon-purple py-2 px-4 rounded-lg text-center"
