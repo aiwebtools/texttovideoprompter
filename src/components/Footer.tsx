@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.aiwebtools.ai"
+                href="https://aiwebtools.lovable.app/?via=aiwebtools"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative inline-flex items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-white/5 border border-white/10 hover:bg-white/10 transition-colors"
