@@ -212,7 +212,7 @@ const Footer: React.FC = () => {
         {/* More AI Tools button */}
         <div className="absolute right-8 -top-12 transform translate-y-1/2">
           <a
-            href="https://www.aiwebtools.ai"
+            href="https://aiwebtools.lovable.app/?via=aiwebtools"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-gradient-to-r from-cyberpunk-neon-magenta to-cyberpunk-neon-purple text-white font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20"

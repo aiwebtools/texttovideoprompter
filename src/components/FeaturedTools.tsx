@@ -98,7 +98,7 @@ const FeaturedTools: React.FC = () => {
         {/* "More Tools" button */}
         <div className="text-center mt-12">
           <a
-            href="https://www.aiwebtools.ai"
+            href="https://aiwebtools.lovable.app/?via=aiwebtools"
             target="_blank"
             rel="noopener noreferrer"
             className="neon-button inline-block group"
